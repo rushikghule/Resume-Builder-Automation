@@ -3,8 +3,11 @@ Wires all nodes into a single LangGraph StateGraph with a human-in-the-loop
 interrupt before the tailoring step, so the frontend can collect answers to
 clarifying questions before the graph proceeds.
 """
+# NEW
+import sqlite3
+from pathlib import Path
 from langgraph.graph import StateGraph, END
-from langgraph.checkpoint.memory import MemorySaver
+from langgraph.checkpoint.sqlite import SqliteSaver
 
 from app.graph.state import GraphState
 from app.graph.nodes.resume_parser import resume_parser_node
@@ -37,8 +40,10 @@ def build_graph():
     graph.add_edge("score_final", "export")
     graph.add_edge("export", END)
 
-    checkpointer = MemorySaver()
-
+    # NEW
+    db_path = Path(__file__).resolve().parents[2] / "checkpoints.db"
+    conn = sqlite3.connect(str(db_path), check_same_thread=False)
+    checkpointer = SqliteSaver(conn)
     return graph.compile(checkpointer=checkpointer, interrupt_after=["generate_questions"])
 
 
