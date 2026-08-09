@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+
+# App data
+backend/exports/*.docx
+backend/checkpoints.db
+backend/app/__pycache__/

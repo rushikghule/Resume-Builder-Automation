@@ -1,0 +1,32 @@
+{
+  "id": "template_2_data",
+  "label": "Data Analyst / Data Scientist",
+  "description": "A template for data-focused roles: analytics, ML, or BI.",
+  "resume": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "phone": "+91 00000 00000",
+    "summary": "Data professional experienced in turning raw data into actionable insights, with a background in statistical analysis and dashboarding.",
+    "skills": ["Python", "SQL", "Pandas", "Excel", "Power BI / Tableau", "Statistics"],
+    "experience": [
+      {
+        "title": "Data Analyst",
+        "company": "Company Name",
+        "start_date": "2022",
+        "end_date": "Present",
+        "bullets": [
+          "Built dashboards and reports used by stakeholders to guide decisions",
+          "Analyzed datasets to identify trends and present findings to non-technical audiences",
+          "Automated recurring reporting workflows, reducing manual effort"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Sc / B.Tech (relevant field)",
+        "institution": "Your University",
+        "year": "2022"
+      }
+    ]
+  }
+}

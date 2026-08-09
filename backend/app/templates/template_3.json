@@ -1,0 +1,32 @@
+{
+  "id": "template_3_product",
+  "label": "Product / Business Roles",
+  "description": "A template suited for product management, business analysis, or operations roles.",
+  "resume": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "phone": "+91 00000 00000",
+    "summary": "Product-minded professional with experience coordinating cross-functional teams and driving projects from idea to delivery.",
+    "skills": ["Product Strategy", "Stakeholder Management", "Roadmapping", "Agile/Scrum", "Data-driven decision making", "Excel"],
+    "experience": [
+      {
+        "title": "Product Analyst",
+        "company": "Company Name",
+        "start_date": "2022",
+        "end_date": "Present",
+        "bullets": [
+          "Worked with engineering and design to define and ship product features",
+          "Gathered and prioritized requirements from stakeholders",
+          "Tracked feature performance using key metrics post-launch"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MBA / B.Tech / Relevant Degree",
+        "institution": "Your University",
+        "year": "2022"
+      }
+    ]
+  }
+}

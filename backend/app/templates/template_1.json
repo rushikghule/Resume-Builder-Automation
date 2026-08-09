@@ -1,0 +1,32 @@
+{
+  "id": "template_1_software",
+  "label": "Software Engineer (Mid-level)",
+  "description": "A general-purpose template for backend/full-stack engineering roles.",
+  "resume": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "phone": "+91 00000 00000",
+    "summary": "Software engineer with experience building and maintaining web applications. Comfortable across the stack, with a focus on writing reliable, maintainable code.",
+    "skills": ["Python", "JavaScript", "SQL", "Git", "REST APIs", "Docker"],
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "company": "Company Name",
+        "start_date": "2022",
+        "end_date": "Present",
+        "bullets": [
+          "Built and maintained features for a production web application used by X users",
+          "Collaborated with cross-functional teams to ship features on schedule",
+          "Wrote and maintained automated tests to improve code reliability"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Tech / B.E. in Computer Science",
+        "institution": "Your University",
+        "year": "2022"
+      }
+    ]
+  }
+}
