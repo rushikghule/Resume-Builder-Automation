@@ -150,6 +150,6 @@ def download_resume(session_id: str):
 
     return FileResponse(
         export_path,
-        filename="tailored_resume.docx",
+        filename="Final_Resume.docx",
         media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
     )
